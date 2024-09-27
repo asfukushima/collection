@@ -1,0 +1,48 @@
+body {
+  font-family: Georgia, serif;
+  line-height: 1.4;
+  margin: 3em;
+  color: #000;
+}
+a {
+  color: black;
+}
+.same {
+  color: black;
+}
+P {
+  color: orange
+}
+h3 {
+  font-style: italic;
+}
+li a {
+  color: greenyellow;
+}
+h1, h2 {
+  color: purple;
+  text-decoration: underline;
+}
+p a {
+  color: pink;
+}
+/*---------------------------------- 
+  Together
+------------------------------------*/
+
+/* 1. Make all of the <h3> elements italic.*/
+
+
+/* 2. Make the text-color of all the <a> elements that are 
+descendents of an <li> element green. Important: be sure that the anchor that sits outside of the list doesn't also change to green!*/
+
+
+/* 3. Change the text-color of all the <p> elements 
+that are descendants of a list item to be orange*/
+
+/* 4. Change the text-color of the h1 and the h2 to purple and give
+Them a text-decoration: underline;*/
+
+
+/* 5. Change the text-color of all the <a> elements 
+that are descendants of a paragraph to be pink*/

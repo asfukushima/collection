@@ -1,0 +1,74 @@
+/*------ PART 1 -------------------------*/
+/* 1. Change the background-color for the body to #1695A3.*/
+body {
+    background-color: #1695A3;
+}
+/* 2. Change the text color for the body to #FFFFFF.*/
+body {
+    color: #FFFFFF;
+}
+/* 3. Change the text color for the paragraph element to #e842f4.*/
+p {
+    color: #e842f4;
+}
+/* 4. Change the text color for h1 tag to #A9A1FF. */
+h1 {
+    color: #A9A1FF;
+}
+/* 5. Make the text on the page a sans-serif font. */
+body {
+    font-family: sans-serif;
+}
+/*------ PART 2 -------------------------*/
+/*1. Center the h3 and change the text color to #FEFFA1.*/
+h3 {
+    text-align: center;
+    color: #FEFFA1;
+}
+/*2. Change the font-size of the paragraph element to 30px and the font-weight to bold.*/
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+/*3. Change the text color for the paragraph element to #EB7F00.*/
+p {
+    color: #EB7F00;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*4. Remove the default underline from the anchor tag below.*/
+a {
+    text-decoration: none;
+}
+/*5. Make the h2 headings capitalized using CSS.*/
+h2 {
+    text-transform: uppercase;
+}
+/*------ PART 3 -------------------------*/
+/*1. Align the h4 to the right and make it's font size 35 pt.*/
+h4 {
+    text-align: right;
+    font-size: 35pt;
+}
+/*2. Change all of the ordered lists to un-ordered lists and make them a shade of green of your choice.*/
+ul {
+    color: greenyellow;
+}
+/*3. Make all of the list items italic. Hint: you can do this with CSS! Google this for hint.*/
+li {
+    font-style: italic;
+}
+/*4. Make the link bold and a shade of red of your choice.*/
+a {
+    font-weight: bold;
+    color: red;
+}
+/*5. Add 15px of padding around the link. Google how to do this.*/
+a {
+    font-weight: bold;
+    color: red
+    padding: 15px;
+    text-decoration: none;
+}
+/*------ Sign Off! -------------------------*/
+/* Add a HTML comment with your name and HTML5 before the closing body tag. Make sure it's a comment and does not show up in the preview. */

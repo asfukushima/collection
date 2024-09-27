@@ -1,0 +1,34 @@
+/* 1. Change the background-color for the body to #FAC7AC*/
+body {
+    background-color: #FAC7AC;
+    color: darkmagenta;
+    text-align: center;
+    font-family: serif;
+}
+header {
+    color: darkred;
+}
+a {
+    color: darkred;
+    text-decoration: none;
+    padding: 20px;
+}
+img {
+    padding: 40px;
+}
+
+/* 2. Change the text color for the body to a shade of violet.*/
+
+/* 3. Change all of the text to center align*/
+
+/* 4. Change the text color for the header to a shade of red.*/
+
+/* 4. Change the font to a serif font of your choice*/
+
+/* 5. Change the color of the anchor tags to the same shade of read as the header.*/
+
+/* 6. Get rid of underline on the the anchor tags */
+
+/* 7. Add padding of 20px to all sides of the anchor tags*/
+
+/* 8. Add padding of 40px to all sides of the img tags*/

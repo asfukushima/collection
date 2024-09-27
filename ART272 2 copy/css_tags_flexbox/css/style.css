@@ -1,0 +1,79 @@
+/*----------------------------------------------
+  GENERAL  STYLES
+------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+
+* {
+    box-sizing: border-box; 
+
+}
+
+body {
+    font-family: 'Turret Road', cursive;
+    color: #5C00FF;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------
+  SPECIFIC  STYLES
+------------------------------------------------
+*/
+h1,
+h2 {
+    font-family: 'Turret Road', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+
+header,
+footer {
+    padding: 5px 20px;
+    border: 2px solid #0560E8;
+    border-radius: 4px;
+    background: #12FFD7;
+    color: #fff;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1 & 2 are in the index.html file
+*/
+
+/* 3. Add display: flex; to main */
+/* 4. Add flex-direction: row; to main */
+/* 5. Give each column wrapper (flex item) a width in percentages */
+
+
+
+/* We will make this a flex container */
+main {
+    background-color: #E8EBE8;
+    padding: 5px 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Flex item (left column) */
+section {
+  background-color: orange;
+  width: 40%;
+  margin-right: 5%;
+}
+
+/* Flex item (right column) */
+aside {
+ background-color: greenyellow;
+ width: 49%;
+}

@@ -1,0 +1,28 @@
+body{
+  /*This rule formats your entire page. You can add background colors, fonts, and more. Start by adding a background color and a font. The margin: auto; rule centers everything on the page. More on this later!*/
+    margin: auto; 
+    background-color: white ; 
+    font-family: serif ; 
+    text-align: center;
+}
+h1 {
+    /* This rule formats any element with a h1 tag. Start by changing the color and size of any h1 text.*/
+    font-size: 24 ; 
+    color: orange ; 
+    text-align: center;
+}
+p {
+      /* This rule formats any element with a h1 tag. Start by changing the color and size of any h1 text.*/  
+    font-size: 14  ; 
+    color: black ;  
+    text-align: center;
+}
+h2 {
+  font-size: 18 ;
+  color: orange ;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

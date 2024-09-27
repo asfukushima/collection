@@ -1,0 +1,61 @@
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.4;
+  margin: 5em;
+  color: #000;
+}
+
+ .box1{
+    background-color: orange;
+    border: 1px solid greenyellow;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+   
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+  .box2 {
+    background-color: yellow;
+    border: 5px solid blue;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+  .box3 {
+   background-color: greenyellow;
+    margin: 10px;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.box3 p{
+  color: red; 
+}
+.box2 p{
+  color: blue;
+}
+.box1 p{
+  color: purple;
+}
+/*---------------------------------- 
+  Together
+------------------------------------*/
+
+/* 1. Review the instructions foreach of the three boxes on the HTML page. Use divs to isolate each box.*/
+
+/* 2. Create a class for each box, naming it in a way that makes sense.*/
+
+/* 3. Add the corresponding declarations to each class. */
+
+/* 4. Apply the classes to the divs. */
+
+/* 5. Change the paragraph text in each box to be the complimentary color of its background.*/
+
+/* 6. Add a 10px margin to each box. */

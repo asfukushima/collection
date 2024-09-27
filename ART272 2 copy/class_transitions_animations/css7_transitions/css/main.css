@@ -1,0 +1,119 @@
+/* GENERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* YELLOW BOX */
+
+.box {
+    width: 1000px;
+    height: 1000px;
+    background-color: #FFDD00;
+    position: relative;
+    margin: auto;
+
+}
+
+/* MOVING COMPUTERS
+INSTRUCTIONS: 
+
+1. Position the computers wherever you want by using absolute positioning.  
+
+2. Target each computer when hovering on .box OR another computer image using ~ and add a transform property to each.*/
+
+
+.little-apple {
+    width: 15px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+.apple_1 {
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    right: 400px;
+    z-index: 1;
+    background-color: greenyellow;
+}
+
+.apple_2 {
+    width: 100px;
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+.apple_2:hover {
+    background-color: red;
+    opacity: 0.5;
+}
+
+.apple_3 {
+    width: 100px;
+    position: absolute;
+    bottom: 40px;
+    left: 600px;
+}
+.apple_3:hover {
+    transform: rotate(30deg);
+}
+
+.apple_4 {
+    width: 100px;
+    position: absolute;
+    left: 500px;
+}
+.apple_4:hover {
+    transform: scale(2);
+}
+
+.apple_5 {
+    width: 100px;
+    position: absolute;
+    bottom: 700px;
+    right: 300px;
+}
+.apple_5:hover {
+    transform: translate(-110px, 25px);
+    transition-duration: 5s;
+}
+.apple_6 {
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
+.apple_6:hover{
+    transform: rotate(90deg);
+    transition-duration: 5s;
+}
+
+.apple_7 {
+    width: 100px;
+    position: absolute;
+    bottom: 400px;
+    left: 400px;
+
+}
+
+.apple_8 {
+    width: 100px;
+    position: absolute;
+    top: 350px;
+    right: 500px;
+}
+
+.apple_9 {
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    right: 400px;
+    background-color: orange;
+}

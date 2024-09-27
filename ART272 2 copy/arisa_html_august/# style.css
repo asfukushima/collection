@@ -1,0 +1,27 @@
+.dollarsbox {
+    background-color: greenyellow;
+    border: 5px orange solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+}
+.countdownbox {
+    background-color: pink;
+    border: 5px greenyellow solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+}
+.stepsbox {
+    background-color: orange;
+    border: 5px pink solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+}

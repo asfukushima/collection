@@ -1,0 +1,76 @@
+/* GENERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* YELLOW BOX */
+
+.box {
+    width: 1000px;
+    height: 1000px;
+    background-color: #FFDD00;
+    position: relative;
+    margin: auto;
+
+}
+
+/* MOVING COMPUTERS
+INSTRUCTIONS: 
+
+1. Position the computers wherever you want by using absolute positioning.  
+
+2. Target each computer when hovering on .box OR another computer image using ~ and add a transform property to each.*/
+
+
+.little-apple {
+    width: 15px;
+}
+
+.apple_1 {
+    width: 100px;
+}
+
+.apple_2 {
+    width: 100px;
+}
+
+.apple_3 {
+    width: 100px;
+
+}
+
+.apple_4 {
+    width: 100px;
+
+}
+
+.apple_5 {
+    width: 100px;
+
+}
+
+.apple_6 {
+    width: 100px;
+
+}
+
+.apple_7 {
+    width: 100px;
+
+}
+
+.apple_8 {
+    width: 100px;
+
+}
+
+.apple_9 {
+    width: 100px;
+
+}
+
